@@ -135,3 +135,41 @@ input, textarea{
     position: relative;
     left: 20px;
 }
+
+.hidden{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        display: flex;
+        overflow: hidden;
+    }
+    header{
+        width: 600px;
+        position: sticky;
+        height: 100vh;
+        
+    }
+
+    .outer{
+        height: 100vh;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .inner{
+        
+        
+    }
+
+    .iamstrata{
+        text-align: right;
+    }
+    footer{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+}
