@@ -163,6 +163,7 @@ textarea {
 @media screen and (min-width: 768px) {
   body {
     display: flex;
+    height: 100vh;
     overflow: hidden;
   }
   header {
@@ -193,6 +194,10 @@ textarea {
     margin-bottom: 150px;
     margin-left: 50px;
     margin-right: 50px;
+    
+  }
+  .rightrightside{
+    overflow-y: scroll;
   }
   .ipsumlorem {
     font-size: 50px;
