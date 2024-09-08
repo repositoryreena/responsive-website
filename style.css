@@ -59,6 +59,7 @@ i:hover {
 .center {
   text-align: center;
   position: relative;
+  /* border: 1px solid red; */
 }
 .button {
   width: 100%;
@@ -105,9 +106,18 @@ img:hover + .view {
   display: block;
 }
 .view {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 2px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  display: none; */
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   border: 2px solid lightgray;
   padding: 10px;
   border-radius: 5px;
