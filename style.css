@@ -1,207 +1,220 @@
-html, body{
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: arial;
-    color: lightgray;
+body {
+  font-family: arial;
+  color: lightgray;
 }
-.gray{
-    color: gray;
+.gray {
+  color: gray;
 }
-.avatar{
-    border-radius: 50%;
-    
+.avatar {
+  border-radius: 50%;
 }
-header, footer{
-    background: url("https://images.unsplash.com/photo-1569714541383-a3304ab825f7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    text-align: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding: 20px;
+header,
+footer {
+  background: url("https://images.unsplash.com/photo-1569714541383-a3304ab825f7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  text-align: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 20px;
 }
-pre{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+pre {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
-strong{
-    color: white;
+strong {
+  color: white;
 }
-pre, a, i{
-    color: gray;
+pre,
+a,
+i {
+  color: gray;
 }
-footer pre{
-    margin: 0;
+footer pre {
+  margin: 0;
 }
-a { text-decoration: none; border-bottom:1px dotted; }
-a, i{
-    cursor: pointer;
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
 }
-a:hover, i:hover{
-    color: seagreen;
+a,
+i {
+  cursor: pointer;
 }
-.address{
-    text-align: left;
+a:hover,
+i:hover {
+  color: seagreen;
 }
-.big{
-    font-size: 24px;
+.address {
+  text-align: left;
 }
-.center{
-    text-align: center;
-    position: relative;
+.big {
+  font-size: 24px;
 }
-.button{
-    width: 100%;
-    padding: 10px;
-    background: white;
-    border-radius: 5px;
-    border-color: lightgray;
-    border-style: solid;
-    color: gray;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+.center {
+  text-align: center;
+  position: relative;
 }
-.button:hover{
-    color: seagreen;
-    border-color: seagreen;
+.button {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-style: solid;
+  color: gray;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.img{
-    width: 100%;
-    border-radius: 10px;
-    cursor: pointer;
+.button:hover {
+  color: seagreen;
+  border-color: seagreen;
 }
-footer{
-    margin-top: 20px;
+.img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
 }
-.margin{
-    margin-left: 20px;
-    margin-right: 10px;
-    width: 90%;
+footer {
+  margin-top: 20px;
+}
+.margin {
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 90%;
 }
 img {
-    -webkit-filter: brightness(100%);
+  -webkit-filter: brightness(100%);
 }
 
 img:hover {
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
-img:hover+.view{
-    display: block;
+img:hover + .view {
+  display: block;
 }
-.view{
-    position: absolute;
-   top: 50%;
-   left: 50%; 
-   border: 2px solid lightgray;
-   padding: 10px;
-   border-radius: 5px;
-   color: white;
-   display: none;
+.view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 2px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  display: none;
 }
-textarea{
-    font-family: Arial, Helvetica, sans-serif;
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
 }
-input, textarea{
-    box-sizing: border-box;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    outline: none;
-    border: none;
-    background: lightgray;
-    border-radius: 5px;
-}
-
-.top{
-    position: relative;
-}
-.fa-house, .fa-mobile-screen, envelope{
-    position: absolute;
-    top: 0px;
-    
-}
-.margin2{
-    color: gray;
-    position: relative;
-    left: 20px;
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  background: lightgray;
+  border-radius: 5px;
 }
 
-.hidden{
+.top {
+  position: relative;
+}
+.fa-house,
+.fa-mobile-screen,
+envelope {
+  position: absolute;
+  top: 0px;
+}
+.margin2 {
+  color: gray;
+  position: relative;
+  left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    overflow: hidden;
+  }
+  header {
+    width: 600px;
+    position: sticky;
+    height: 100vh;
+  }
+
+  .outer {
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .iamstrata {
+    text-align: right;
+  }
+  footer {
     display: none;
-}
+  }
+  .hidden {
+    display: block;
+  }
 
-@media screen and (min-width: 768px){
-    body{
-        display: flex;
-        overflow: hidden;
-    }
-    header{
-        width: 600px;
-        position: sticky;
-        height: 100vh;
-        
-    }
-
-    .outer{
-        height: 100vh;
-        display: flex;
-        justify-content: right;
-        align-items: center;
-    }
-    
-
-    .iamstrata{
-        text-align: right;
-    }
-    footer{
-        display: none;
-    }
-    .hidden{
-        display: block;
-    }
-
-    .rightside{
-        margin-top: 250px;
-        margin-left: 50px;
-    }
-    .ipsumlorem{
-        font-size: 50px;
-        width: 90%;
-    }
-    .accumsan{
-        font-size: 24px;
-    }
-    .button{
-        width: 200px;
-        font-size: 25px;
-        
-    }
-    #learnmore{
-        text-align: left;
-    }
-    hr{
-        margin-bottom: 100px;
-        margin-top: 100px;
-    }
-    #outer{
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-    #inner{
-        width: 50%;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-    
+  .rightside {
+    margin-top: 250px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .ipsumlorem {
+    font-size: 50px;
+    width: 90%;
+  }
+  .accumsan {
+    font-size: 24px;
+  }
+  .button {
+    width: 200px;
+    font-size: 25px;
+  }
+  #learnmore {
+    text-align: left;
+  }
+  hr {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  #outer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .inner2 {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .leftrightinputs {
+    display: flex;
+    justify-content: space-between;
+  }
 }
