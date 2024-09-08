@@ -1,10 +1,15 @@
 html, body{
     max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 body{
     font-family: arial;
-    margin: 0;
+    color: lightgray;
+}
+.gray{
+    color: gray;
 }
 .avatar{
     border-radius: 50%;
@@ -15,6 +20,7 @@ header, footer{
     text-align: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    padding: 20px;
 }
 pre{
     font-family: Arial, Helvetica, sans-serif;
@@ -23,6 +29,109 @@ pre{
 strong{
     color: white;
 }
-pre, a{
+pre, a, i{
     color: gray;
+}
+footer pre{
+    margin: 0;
+}
+a { text-decoration: none; border-bottom:1px dotted; }
+a, i{
+    cursor: pointer;
+}
+a:hover, i:hover{
+    color: seagreen;
+}
+.address{
+    text-align: left;
+}
+.big{
+    font-size: 24px;
+}
+.center{
+    text-align: center;
+    position: relative;
+}
+.button{
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-style: solid;
+    color: gray;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.button:hover{
+    color: seagreen;
+    border-color: seagreen;
+}
+.img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer{
+    margin-top: 20px;
+}
+.margin{
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 90%;
+}
+img {
+    -webkit-filter: brightness(100%);
+}
+
+img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+img:hover+.view{
+    display: block;
+}
+.view{
+    position: absolute;
+   top: 50%;
+   left: 50%; 
+   border: 2px solid lightgray;
+   padding: 10px;
+   border-radius: 5px;
+   color: white;
+   display: none;
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input, textarea{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+.top{
+    position: relative;
+}
+.fa-solid{
+    position: absolute;
+    top: 0px;
+    
+}
+.margin2{
+    color: gray;
+    position: relative;
+    left: 20px;
 }
