@@ -135,7 +135,7 @@ textarea {
 }
 .fa-house,
 .fa-mobile-screen,
-envelope {
+.envelope {
   position: absolute;
   top: 0px;
 }
@@ -143,6 +143,7 @@ envelope {
   color: gray;
   position: relative;
   left: 20px;
+  display: inline-flex;
 }
 
 .hidden {
@@ -216,5 +217,33 @@ envelope {
   .leftrightinputs {
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
+  }
+  .leftinputs{
+    width: 75%;
+  }
+  input, textarea{
+    font-size: 18px;
+  }
+  .margin2{
+    margin-left: 25px;
+    box-sizing: border-box;
+  }
+  .nameemail{
+    width: 50%;
+    
+  }
+  .nameemailcontainer{
+    display: flex;
+    
+  }
+  .nameemailmessage{
+    padding: 20px;
+  }
+  .name{
+    margin-right: 5px;
+  }
+  .email{
+    margin-left: 5px;
   }
 }
