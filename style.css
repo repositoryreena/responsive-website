@@ -125,7 +125,7 @@ input, textarea{
 .top{
     position: relative;
 }
-.fa-solid{
+.fa-house, .fa-mobile-screen, envelope{
     position: absolute;
     top: 0px;
     
